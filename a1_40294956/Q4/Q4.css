@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(243, 243, 113);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#personal-info {
+    background-color: rgb(182, 118, 230);
+    border: 7px solid lightgreen;
+    color: lightblue;
+}
+
+#personal-info-legend {
+    color: lightgreen;
+}
+
+#survey-questions {
+    background-color: rgb(240, 131, 131);
+    border: 7px solid red;
+    color: rgb(136, 89, 2);
+}
+
+label {
+    text-decoration: solid;
+}

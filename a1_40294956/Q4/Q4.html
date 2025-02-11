@@ -2,13 +2,8 @@
 <html lang = "en">
     <head>
         <meta charset = "UTF-8">
-        <title>Q3</title>
-        <style>
-            img {
-                width: 100px;
-                height: 100px;
-            }
-        </style>
+        <title>Q4</title>
+        <link rel="stylesheet" href="Q4.css">
     </head>
     <body>
         <table>
@@ -17,8 +12,8 @@
             </tr>
         </table>
         <form>
-            <fieldset>
-                <legend>Music Lover's Personal Information</legend>
+            <fieldset id="personal-info">
+                <legend id="personal-info-legend">Music Lover's Personal Information</legend>
                 <label for="First Name">
                     First Name:
                     <input type="text" name="First Name" required>
@@ -54,10 +49,10 @@
                 </label>
             </fieldset>
             <br/>
-            <fieldset>
-                <legend>Survey Questions</legend>
+            <fieldset id="survey-questions">
+                <legend id="survey-questions-legend">Survey Questions</legend>
                 <label for="Music Type">
-                    Which type of music do you listen to?(Pick as many as apply) <br/>
+                    Which type of music do you listen to? (Pick as many as apply) <br/>
                     <input type="checkbox" name="Blues" value="Blues"> Blues
                     <input type="checkbox" name="Classical music" value="Classical music"> Classical music
                     <input type="checkbox" name="Electronic Music" value="Electronic Music"> Electronic Music
