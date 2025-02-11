@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Q3</title>
+        <style>
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Music Lover's Survey<td><a href="https://www.istockphoto.com/photo/3d-music-notes-dancing-away-gm184274834-17039529?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fmusic%2520notes%2F&utm_term=music+notes" target="_blank"><img src="musicNotes.jpg" alt="Music Notes"</a></td></th>
+            </tr>
+        </table>
+        <form>
+            <fieldset>
+                <legend>Music Lover's Personal Information</legend>
+                <label for="First Name">
+                    First Name:
+                    <input type="text" name="First Name" required>
+                </label> <br/><br/>
+                <label for="Family Name">
+                    Family Name:
+                    <input type="text" name="Family Name" required>
+                </label><br/><br/>
+                <label for="Gender">
+                    Gender:
+                    <input type="radio" name="Gender" value="Male" required> Male
+                    <input type="radio" name="Gender" value="Female" required> Female
+                </label><br/><br/>
+                <label for="Age">
+                    What age category are you from?
+                    <select name="Age" required>
+                        <option value="Under 10">Under 10</option>
+                        <option value="10 to 19">10 to 19</option>
+                        <option value="20 to 29">20 to 29</option>
+                        <option value="30 to 39">30 to 39</option>
+                        <option value="40 to 49">40 to 49</option>
+                        <option value="50 to 59">50 to 59</option>
+                        <option value="60 to 69">60 to 69</option>
+                        <option value="70 to 79">70 to 79</option>
+                        <option value="80 to 89">80 to 89</option>
+                        <option value="90 to 99">90 to 99</option>
+                        <option value="100 and above">100 and above</option>
+                    </select>
+                </label><br/><br/>
+                <label for="Email">
+                    Email:
+                    <input type="email" name="Email" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Survey Questions</legend>
+                <label for="Music Type">
+                    Which type of music do you listen to?(Pick as many as apply) <br/>
+                    <input type="checkbox" name="Blues" value="Blues"> Blues
+                    <input type="checkbox" name="Classical music" value="Classical music"> Classical music
+                    <input type="checkbox" name="Electronic Music" value="Electronic Music"> Electronic Music
+                    <br/>
+                    <input type="checkbox" name="Hip Hop/Rap" value="Hip Hop/Rap"> Hip Hop/Rap
+                    <input type="checkbox" name="Pop(Popular music)" value="Pop(Popular music)"> Pop(Popular music)
+                    <input type="checkbox" name="Reggae" value="Reggae"> Reggae
+                    <br/>
+                    <input type="checkbox" name="Other" value="Other"> Other
+                </label>
+                <br/><br/>
+                <label for="favorite bands">
+                    List your 3 favorite artists/bands:
+                    <br/>
+                    <input type="text" name="favorite bands" required>
+                    <input type="text" name="favorite bands" required>
+                    <input type="text" name="favorite bands" required>
+                </label> 
+                <br/>
+                <label for="tickets">
+                    If you were to win tickets, which show would you like 2 tickets to?
+                    <br/>
+                    <input type="radio" name="tickets" value="BRIT FLOYD" required> BRIT FLOYD(March 24, 2016)
+                    <input type="radio" name="tickets" value="IRON MAIDEN" required> IRON MAIDEN(April 1, 2016)
+                    <input type="radio" name="tickets" value="JANET JACKSON" required> JANET JACKSON(June 17, 2016)
+                    <input type="radio" name="tickets" value="ADELE" required> ADELE(September 30, 2016)
+                </label>
+            </fieldset>
+            <br/><br/>
+            <p>Thank you for taking the time to fill out our survey!</p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
