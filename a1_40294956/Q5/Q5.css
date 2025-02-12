@@ -1,0 +1,14 @@
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+#p1 {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+}
